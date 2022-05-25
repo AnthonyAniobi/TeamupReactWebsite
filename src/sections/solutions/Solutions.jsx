@@ -8,7 +8,7 @@ import './solutions.css';
 
 const Solutions = () => {
     return (
-        <div className='teamup__solutions'>
+        <div className='teamup__solutions' id='contact'>
             <div className="teamup__solutions-content">
                 <h1>TeamUp Solutions</h1>
                 <p>Customers in 11 Countries are using CloudYogi CRM to manage their business.

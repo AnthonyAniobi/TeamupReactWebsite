@@ -4,7 +4,7 @@ import teamImage from '../../assets/teamImage.png';
 
 const Team = () => {
     return (
-        <div className='teamup__team'>
+        <div className='teamup__team' id='team'>
             <h1>Team</h1>
             <div>
                 <p>
