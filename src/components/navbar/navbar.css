@@ -1,0 +1,33 @@
+.teamup__navbar {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.teamup__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    align-items: center;
+}
+
+.teamup__navbar-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.teamup__navbar-links p {
+    margin-left: 2rem;
+}
+
+.teamup__navbar-links p a {
+    font-family: var(--font-family);
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    cursor: pointer;
+}

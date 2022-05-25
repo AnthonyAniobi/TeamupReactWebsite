@@ -1,0 +1,41 @@
+.teamup__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 0 4rem;
+}
+
+.teamup__header-text {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+
+.teamup__header-image {
+    width: 50%;
+    margin-right: 3rem;
+}
+
+.teamup__header-text h1 {
+    font-family: var(--font-family);
+    font-style: normal;
+    color: white;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+}
+
+.teamup__header-text p {
+    font-family: var(--font-family);
+    font-style: normal;
+    color: white;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.teamup__header-image img {
+    width: 100%;
+}

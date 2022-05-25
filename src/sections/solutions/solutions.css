@@ -1,0 +1,57 @@
+.teamup__solutions {
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.teamup__solutions-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.teamup__solutions-content-icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.teamup__solutions-content h1 {
+    font-family: var(--font-family);
+    font-style: normal;
+    color: var(--blue);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    text-decoration-line: underline;
+}
+
+.teamup__solutions-content p {
+    font-family: var(--font-family);
+    color: var(--blue);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.teamup__solutions-content h2 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    color: var(--blue);
+}
+
+.teamup__solutions-content div div {
+    display: flex;
+    justify-content: start;
+    margin: 1rem 0;
+}
+
+.teamup__solutions-map {
+    width: 725px;
+    height: 392px;
+    background-color: var(--blue);
+}
